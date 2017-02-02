@@ -3,6 +3,7 @@
         <ul>
             <li><a href="index.php">Альпинизм</a></li>
             <li><a href="skal.php">Скалолазание</a>
+		<li><a href="git.php">Git</a>
 <!--                <ul>-->
 <!--                    <li><a href="#">Скалолазание 1</a></li>-->
 <!--                    <li><a href="#">Скалолазание 2</a></li>-->
