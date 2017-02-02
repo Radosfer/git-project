@@ -1,0 +1,249 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(black-brick-wall.jpg);
+
+	/*background: #f6f6f6 url("bckg.jpg") repeat scroll 0% 0%;*/
+	width: 100%;
+
+    background-color: black;
+	background-repeat: repeat;
+	background-position: top center;
+	background-attachment: fixed;
+
+}
+
+a {
+	color: #333;
+
+	text-decoration: none;
+
+}
+
+#page_align {
+	
+	font-family: Arial, Calibri, Tahoma;
+	font-size: 12px;
+	color: #333;
+	width: 98%;
+	height: 100%;
+	background: rgb(78, 78, 78);
+	/*background-image: url(wushu.jpg);*/
+	margin:  auto;
+	padding: 0;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+
+
+}
+
+#header {
+
+	width: 100%;
+	height: 35px;
+background: #2b34d6;
+background: -moz-linear-gradient(top, #2b34d6 0%, #b52ac6 0%, #c5191a 100%);
+background: -webkit-linear-gradient(top,  #2b34d6 0%,#b52ac6 0%,#c5191a 100%);
+background: linear-gradient(to bottom,  #2b34d6 0%,#b52ac6 0%, #c5191a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b34d6', endColorstr='#febf04',GradientType=0 );
+
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	overflow: hidden;
+}
+#header ul {
+
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+#header li {
+
+	float: left;
+
+}
+
+#header ul li a {
+	text-decoration: none;
+	padding: 0px 10px;
+	height: 35px;
+
+	display: block;
+	line-height: 34px;
+	padding-top: 1px;
+}
+
+#header ul li a:hover {  /* при наведении*/
+	background: rgba(0,0,0,0.1);
+	color: black;
+}
+
+#img h1 a:hover {  /* при наведении*/
+	background: rgba(0,0,0,0);
+	color: blueviolet;
+    transition: all.6s ease;
+}
+
+#img {
+
+	margin-left: 10px;
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+#img h1 {
+	padding: 0;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 60px;
+	margin-bottom: 0;
+	text-decoration: none;
+}
+
+#img p {
+	padding: 0;
+	font-size: 16px;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+
+.img {
+
+	border-radius: 	50px;
+	float: left;
+}
+
+.clr {
+clear: both; /*делает пустую строку, отделяет*/
+}
+/*
+input[name="name"] {
+
+	margin-left: 10px;
+	height: 30px;
+	width: 200px;
+	border-radius: 3px;
+	border: solid 1px blue;
+	box-shadow: none;
+	transition: all 0.5s ease-in-out;
+}
+
+input[name="name"]:focus {
+
+	outline: none;
+	box-shadow: 0px 0px 9px red;
+}
+*/
+p {
+	text-indent: 15px;
+	margin-top: 0.5em; /* Отступ сверху */
+	margin-bottom: 1em; /* Отступ снизу */
+}
+
+footer {
+    border-top: solid;
+
+}
+
+footer div p {
+
+    line-height: 15px;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+#feedback {
+	height: 340px;
+  }
+
+#feedback input {
+
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 1.2em;
+    border-radius: 2px;
+    border: 2px solid silver;
+}
+
+#feedback  textarea:focus, input:focus  {
+
+    outline: none;
+    box-shadow: 0px 0px 9px #584280;
+}
+
+#feedback  textarea:hover, input:hover  {
+
+	outline: none;
+	box-shadow: 0px 0px 9px #3f8026;
+}
+
+
+
+#feedback textarea {
+    width: 21%;
+    margin-left: 39%;
+    height: 150px;
+    float: left;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+#feedback input#done:hover {
+
+    cursor: pointer;
+}
+
+#messageShow {
+    font-size: 1.2em;
+    color: red;
+    float: left;
+    width: 100%;
+    text-align: center;
+	height: 20px;
+
+}
+
+
+  .gallery     {
+
+        list-style: none outside none;
+        padding-left: 0;
+  }
+.gallery      li {
+
+	  display: block;
+        float: left;
+        height: 100px;
+        margin-bottom: 6px;
+        margin-right: 6px;
+        width: 100px;
+    }
+.gallery      li a {
+        height: 100px;
+        width: 100px;
+    }
+.gallery     li a img {
+        max-width: 100px;
+    }
+
+.test {
+	color: #d67fbb;
+
+}
+
+
+
